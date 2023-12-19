@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ijogo">Jogos: </label>
+            <select name="jogo" id="ijogo">
+                <option value="Selecione" selected>---Selecione---</option>
+                <optgroup label="Jogos Gráficos Médios">
+                    <option value="TDVS">The Dishwasher Vampire Smile</option>
+                    <option value="CR">Clash Royale</option>
+                    <option value="SK">SkullGirls</option>
+                    <option value="COD">Call Of Duty</option>
+                    <option value="Osu">Osu</option>
+                    <option value="BW">BrawlHalla</option>
+                </optgroup>
+
+                <optgroup label="Jogos Pixelados">
+                    <option value="DW">Downwell</option>
+                    <option value="Kof">The King Of Fighters</option>
+                    <option value="20MTD">20 Minutes Till Dawn</option>
+                    <option value="MINE">Minecraft</option>
+                    <option value="T">Terraria</option>
+                    <option value="YB!">Yeah Bunny!</option>
+                </optgroup>
+            </select>
+        </p>
+
+
+        <p>
+            <label for="iest">estados: </label>
+            <input type="text" name="est" id="iest" list="lstest">
+            <datalist id="lstest">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10">
+            </textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

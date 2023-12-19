@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+/* Acho que essa position absolute é para poder mexer a vontade.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Pesquisar depois.*/
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh; /* Vai ocupar a tela toda. */
+}
+
+main{
+    display: inline-block; /* Um pouco dos dois.*/
+    margin-top: 1%;
+    padding: 15px;
+    position: relative;
+}
+
+img.pokedex{
+    width: 100%; /* Vai ocupar 100% da tela que estiver disponível. */
+    max-width: 425px; /* Para a imagem não ficar quebrando. */
+}
+
+img.pokemon__image{
+    position: absolute;
+    bottom: 55%; /* 55% da altura da pokedex. */
+    left: 50% ; /* A mesma coisa, essas porcentagens estão referentes ao tamanho da div main. */
+    transform: translate(-63%, 20%); /* x, y.Esse valor em porcentagem está referente ao tamanho da imagem do pokemon. */
+    height: 13%; /* Mexer depois de colocar a imagem. */
+}
+
+h1.pokemon_data{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 26%;
+    font-size: clamp(8px, 5vw, 25px); /* min, desejavel, max */
+}
+
+span.pokemon_name{
+    color: #3a444d;
+    text-transform: capitalize ; /* capitalize - Primeira letra maiúscula.
+    lowercase - Todas as letras minúsculas.
+    uppercase - Todas as letras maiúsculas.
+    */
+}
+
+form.form{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+input.input_search{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow:-3px 4px 0 #686565, -5px 7px 0 #1b1b1bd2; /* x y tamanho cor */
+}
+
+div.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 67%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+button.button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(5px, 5vw, 1rem);
+    font-weight: 600;
+    color: #fff;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+button.button:active{
+    box-shadow: inset -4px 4px 0 #000; /* inset pega o que está do lado de fora e coloca no lado de dentro. */
+    font-size: 0.9rem;
+}

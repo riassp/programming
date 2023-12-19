@@ -1,0 +1,71 @@
+@charset  "UTF-8";
+
+body{
+    background: black url(../imagens/Background-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html{
+            height: 100%;
+        }
+
+
+        div#espaco{
+            height: 27vh;
+         }
+         
+        img#logo{
+            display: block;
+            width: 250px;
+            margin: auto;
+        }
+
+       div#botao{
+        margin: auto;
+        height: 80px;
+        width: 350px;
+        border-radius: 50px;
+        box-shadow:rgba(123, 255, 0, 0.541) 0px 15px 20px 0px;
+        background-image: linear-gradient(to right, rgb(21, 255, 0), rgb(145, 255, 0));
+       }
+
+       div#tamanho{
+        width: 350px;
+        margin: auto;
+       }
+
+       p#textob{
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 27px;
+        font-family:sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgb(0, 107, 0);
+       }
+
+       a#botao-meio{
+        text-decoration: none;
+       }
+
+       section#social{
+        text-align: center;
+        height: 60px;
+       }
+
+       section#social img{
+        width: 60px;
+        margin: 8px;
+       }
+
+       section#social img:hover{
+        width: 62px;
+       }

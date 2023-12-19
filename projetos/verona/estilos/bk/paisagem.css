@@ -1,0 +1,105 @@
+@charset  "UTF-8";
+
+body{
+    background: black url(../imagens/Background-Pc.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family:'Bebas' ;
+    src: url('BebasNeue-Regular.otf') format('OpenType');
+}
+
+html{
+    height: 100%;
+}
+
+
+div#espaco{
+    height: 150px;
+ }
+ 
+img#logo{
+    display: block;
+    width: 320px;
+    margin: auto;
+}
+
+div#botao{
+margin: auto;
+height: 90px;
+width: 390px;
+border-radius: 50px;
+background-image: linear-gradient(to right, rgb(21, 255, 0), rgb(145, 255, 0));
+transition: 1s;
+}
+
+div#botao:hover{
+    box-shadow:rgba(123, 255, 0, 0.623) 0px 15px 15px;
+    transition: 1s;
+}
+
+a#botao-meio{
+    text-decoration: none;
+}
+
+
+p#textob{
+text-align: center;
+margin-top: 60px;
+padding-top: 33px;
+font-style: italic;
+text-transform: uppercase;
+font-weight: 800;
+font-family: 'Bebas', sans-serif;
+font-size: 25px;
+color: rgb(0, 107, 0);
+}
+
+div#social{
+text-align: center;
+margin-top: 100px;
+}
+
+img#W{
+margin-right: 15px;
+width: 60px;
+transition: 0.2s;
+}
+
+img#I{
+    margin-right: 15px;
+width: 60px;
+transition: 0.2s;
+}
+
+img#F{
+width: 60px;
+transition: 0.2s;
+}
+
+img#W:hover{
+    width: 65px;
+    transition: 0.2s;
+}
+
+img#I:hover{
+    width: 65px;
+    transition: 0.2s;
+    }
+
+    img#F:hover{
+    width: 65px;
+    transition-duration: 0.2s;
+    }
+
+    div#tamanho-social{
+      box-sizing: border-box;
+        
+    }

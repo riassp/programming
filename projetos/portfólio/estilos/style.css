@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:sans-serif;
+    background-color: crimson;
+}
+
+header{
+    background-color: green;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section{
+    background-color: blue;
+}
+
+footer{
+    background-color: aqua;
+    align-items: center;
+}

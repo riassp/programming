@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-slide{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.452);
+}
+
+.container-items{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
+
+.item{
+    width: 50vw;
+    height: 50vh;
+}
+
+.item img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.action-button{
+
+}
+

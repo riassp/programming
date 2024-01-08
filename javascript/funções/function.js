@@ -83,7 +83,7 @@ console.log(multiplica)
 */
 
 
-/* Se eu escrever tudo numa mesma linha eu não vou precisar usar o return. É a mesma coisa de cima só que mais simplificado ainda. */
+/* Se eu escrever tudo numa mesma linha eu não vou precisar usar o return. É a mesma coisa de cima só que mais simplificado ainda.  */
 const multi = (numero1, numero2) => numero1 * numero2
 
 const multiplica = multi(10, 50)
